@@ -1,4 +1,4 @@
-import random as rd
+from random import choice
 
 print("H A N G M A N")
 
@@ -12,7 +12,7 @@ while running == True:
         fails = 0
 
         words =["python", "java", "kotlin", "javascript"]
-        word = rd.choice(words)
+        word = choice(words)
         hint_as_list = ["-"]*len(word)
         guesses = []
 
